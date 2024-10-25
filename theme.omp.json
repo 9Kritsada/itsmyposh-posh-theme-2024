@@ -7,19 +7,8 @@
 			"segments": [
 				{
 					"foreground": "#ff5959",
-					"properties": {
-					  "macos": "\uf179 ",
-					  "ubuntu": "\uf31b ",
-					  "windows": "\ufd23 "
-					},
-					"style": "diamond",
-					"template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
-					"type": "os"
-				},
-				{
-					"foreground": "#ff5959",
 					"style": "plain",
-					"template": "{{ .HostName }} ",
+					"template": "<>\ufd23</> {{ .HostName }} ",
 					"type": "session"
 				},
 				{
